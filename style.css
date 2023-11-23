@@ -1,1 +1,133 @@
 
+#carte
+
+{
+
+width: 1300px;
+
+margin:0 auto;
+
+background-color: #048b9a;
+
+text-align: center;
+    
+font-family: Courier New, monospace;
+
+font-style: normal;
+
+color: white;
+
+align-content: center;
+
+}
+
+#carte2
+
+{
+
+width: 1300px;
+
+margin:0 auto;
+
+background-image: url('https://www.shutterstock.com/image-photo/different-types-arduino-microcontroller-boards-600nw-2344049895.jpg');
+
+text-align: center;
+    
+font-family: Courier New, monospace;
+
+font-style: normal;
+
+color: black;
+
+align-content: center;
+
+}
+
+#carte3
+
+{
+
+width: 800px;
+
+margin:0 auto;
+
+background-color: #048b9a;
+
+background-image: url("https://st2.depositphotos.com/3268541/7868/v/450/depositphotos_78686562-stock-illustration-3d-print-icons-set.jpg")
+
+text-align: left;
+    
+font-family: Courier New, monospace;
+
+font-style: normal;
+
+color: black;
+
+align-content: center;
+
+}
+
+#carte4
+
+{
+
+width: 1300px;
+
+margin:0 auto;
+
+background-image: url("https://st2.depositphotos.com/3268541/7868/v/450/depositphotos_78686562-stock-illustration-3d-print-icons-set.jpg")
+
+text-align: left;
+    
+font-family: Courier New, monospace;
+
+font-style: normal;
+
+color: black;
+
+align-content: left;
+
+}
+
+h3
+
+{
+text-align: left;
+    
+font-family: Courier New, monospace;
+
+font-style: normal;
+
+color: #048b9a;
+}
+
+img {
+     border : 5px groove; #000000;
+
+     margin: 30px; 
+}
+
+.zoom {
+width: 320px;
+height: 240px;
+}
+.image {
+width: 100%;
+height: 100%;
+}
+.image img {
+/* La transition s'applique à la fois sur la largeur et la hauteur, avec une durée d'une seconde. */
+-webkit-transition: all 1s ease; /* Safari et Chrome */
+-moz-transition: all 1s ease; /* Firefox */
+-ms-transition: all 1s ease; /* Internet Explorer 9 */
+-o-transition: all 1s ease; /* Opera */
+transition: all 1s ease;
+}
+.image:hover img {
+/* L'image est grossie de 25% */
+-webkit-transform:scale(1.50); /* Safari et Chrome */
+-moz-transform:scale(1.25); /* Firefox */
+-ms-transform:scale(1.25); /* Internet Explorer 9 */
+-o-transform:scale(1.25); /* Opera */
+transform:scale(1.25);
+}
